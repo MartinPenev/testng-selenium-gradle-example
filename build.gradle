@@ -16,7 +16,10 @@ dependencies {
 
 test {
     // enable TestNG support (default is JUnit)
-    useTestNG()
+    useTestNG() {
+        // runlist to executed. path is relative to current folder
+        suites 'sample.xml'
+    }
 
     //Show full exception on failure
     testLogging {

@@ -1,0 +1,7 @@
+<suite name="Test Suite">
+    <test name="Basic Sample">
+        <classes>
+            <class name="SeleniumExample"/>
+        </classes>
+    </test>
+</suite>
